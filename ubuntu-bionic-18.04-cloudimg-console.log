@@ -26,7 +26,7 @@
 [    0.000000] MTRR: Disabled
 [    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
 [    0.000000] CPU MTRRs all blank - virtualized system.
-[    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+[    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC
 [    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff]
 [    0.000000] Scanning 1 areas for low memory corruption
 [    0.000000] RAMDISK: [mem 0x35a67000-0x36d2afff]
@@ -353,7 +353,7 @@ Begin: Loading essential drivers ... [    9.356460] raid6: sse2x1   gen() 14038 
 [    9.885404] raid6: using algorithm avx2x4 gen() 38045 MB/s
 [    9.886642] raid6: .... xor() 23532 MB/s, rmw enabled
 [    9.887675] raid6: using avx2x2 recovery algorithm
-[    9.889634] xor: automatically using best checksumming function   avx       
+[    9.889634] xor: automatically using best checksumming function   avx
 [    9.892476] async_tx: api initialized (async)
 done.
 Begin: Running /scripts/init-premount ... done.
@@ -653,7 +653,7 @@ cloud-init[684]: |        S . o .  |
 [[0;32m  OK  [0m] Started Apply the settings specified in cloud-config.
          Starting Execute cloud user/final scripts...
 ci-info: no authorized SSH keys fingerprints found for user ubuntu.
-<14>Jan  6 05:43:46 ec2: 
+<14>Jan  6 05:43:46 ec2:
 <14>Jan  6 05:43:46 ec2: #############################################################
 <14>Jan  6 05:43:46 ec2: -----BEGIN SSH HOST KEY FINGERPRINTS-----
 <14>Jan  6 05:43:46 ec2: 1024 SHA256:A5f35dkyeZgTtkdJV+Qe0TDvh/2AsGw+v9xnFb9eY6M root@ubuntu-bionic (DSA)
@@ -675,4 +675,4 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQI3Wm6qWkTCihyR3mocA1xHsIfVk0yEE0hFgnYmRL
 
 Ubuntu 18.04.5 LTS ubuntu-bionic ttyS0
 
-ubuntu-bionic login: 
+ubuntu-bionic login:
