@@ -124,7 +124,7 @@ dmypy.json
 
 ### Vagrant ###
 # General
-.vagrant*/
+.vagrant/
 
 # Log files (if you are creating logs in debug mode, uncomment this)
 # *.logs
@@ -136,4 +136,6 @@ dmypy.json
 eb-package.zip
 static/
 
-.ubuntu-bionic-18.04-cloudimg-console.log
+#certain files
+.Vagrantfile/
+ubuntu-bionic-18.04-cloudimg-console.log
