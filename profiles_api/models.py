@@ -23,7 +23,7 @@ class UserProfileManger(BaseUserManager):
 
     def create_superuser(self,email,name,password):
         """create new superuser with given detials"""
-        user = create_user(email, name, password)
+        user = self.create_user(email, name, password)
 
         user.is_superuser = True #is already part of PermissionsMixin
         user.is_staff = True
